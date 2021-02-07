@@ -8,6 +8,8 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavBtn,
+  NavBtnLink,
 } from "./NavbarElements";
 const Navbar = () => {
   return (
@@ -20,9 +22,22 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about"></NavLinks>
+              <NavLinks to="about">About</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="projects">Projects</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="about">Achievement</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="about">Contact</NavLinks>
             </NavItem>
           </NavMenu>
+
+          <NavBtn>
+            <NavBtnLink to="/Resume">Resume</NavBtnLink>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>
