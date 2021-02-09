@@ -11,13 +11,13 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">Rafath Auvee</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
@@ -28,10 +28,10 @@ const Navbar = () => {
               <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">Achievement</NavLinks>
+              <NavLinks to="Achievement">Achievement</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">Contact</NavLinks>
+              <NavLinks to="contact">Contact</NavLinks>
             </NavItem>
           </NavMenu>
 
