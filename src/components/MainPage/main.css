@@ -1,13 +1,13 @@
-*{
-    
+/* *{
     margin: 0;
     padding: 0;
     font-family: monospace;
     box-sizing: border-box;
-}
+} */
 
 .App{
     text-align: center;
+    
 }
 
 .App-logo{
@@ -15,10 +15,12 @@
     border-radius: 50%;
     margin-bottom: 50px;
     border: 1vh solid #fff;
+    
 }
 
 .App-header{
-    background-color: #282c34 ;
+    /* background-color: #282c34 ; */
+    position: relative;
     min-height: 100vh;
     min-width: 100vh;
     display: flex;
@@ -27,18 +29,65 @@
     justify-content: flex-start;
     font-size: calc(10px+ 2vmin);
     color : white;
-    padding: 6vh;
+    padding: 34vh;
+
+    
 }
 
 .App-Link{
     color: aqua
 }
-
-h1{
-    margin-bottom: 20px;
+h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
+h1{
+    margin-bottom: 15px;
+    font-size: 4rem;
+}
+
 
 p{
     line-height: 2em;
-    font-size: 1.2em;
+    font-size: 3.5em;
+    
 }
+
+@media screen and (max-width: 1280px) {
+
+    .App-header{
+        text-align: left;
+        margin-top: 50px;
+        align-items: left;
+        padding: 5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .App-header{
+        text-align: left;
+        margin-top: 50px;
+        align-items: left;
+        padding: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+  }

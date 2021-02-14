@@ -37,23 +37,22 @@ const Navbar = ({ toggle }) => {
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
-
+            <NavMenu>
+              <NavItem>
+                <NavLinks to="/about">About</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/projects">Projects</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/achievement">Achievement</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/contact">Contact</NavLinks>
+              </NavItem>
+            </NavMenu>
             <NavBtn>
-              <NavMenu>
-                <NavItem>
-                  <NavLinks to="/about">About</NavLinks>
-                </NavItem>
-                <NavItem>
-                  <NavLinks to="/projects">Projects</NavLinks>
-                </NavItem>
-                <NavItem>
-                  <NavLinks to="/achievement">Achievement</NavLinks>
-                </NavItem>
-                <NavItem>
-                  <NavLinks to="/contact">Contact</NavLinks>
-                </NavItem>
-                <NavBtnLink to="/resume">Resume</NavBtnLink>
-              </NavMenu>
+              <NavBtnLink to="/resume">Resume</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

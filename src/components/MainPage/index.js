@@ -6,31 +6,35 @@ const Main = () => {
   return (
     <div className="App">
       <div className="App-header">
-        <h1>Hi, I'm Rafath Bin Zafar Auvee</h1>
+        <h3>
+          Hello, my name is <br />
+        </h3>
+        <h1>Rafath Bin Zafar Auvee</h1>
         <p>
           I'm a{" "}
           <Typical
             loop={Infinity}
-            wrapper="b"
+            wrapper="a"
             steps={[
               "Freelance Web Developer 💻",
-              1000,
-              "Competitive Programmer ⌨",
-              1000,
+              4000,
+              "Competitive Programmer 🐱‍👤",
+              4000,
               "Open Sourcer 📖",
-              1000,
+              4000,
               "2D Animator 🎭",
-              1000,
-              "Game Developer 🕹",
-              1000,
+              4000,
+              "Game Developer 🎮",
+              4000,
               "Explorer & Traveller 🧳",
-              1000,
+              4000,
               "Kayaker 🛶",
-              1000,
+              4000,
             ]}
           />
         </p>
       </div>
+      <div className="line"></div>
     </div>
   );
 };
