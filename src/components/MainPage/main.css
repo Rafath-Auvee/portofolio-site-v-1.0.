@@ -1,12 +1,14 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    /* font-family: monospace; */
     box-sizing: border-box;
-} */
+    
+}
 
 .App{
     text-align: center;
+    height: 120vmin;
     
 }
 
@@ -42,7 +44,7 @@ h3{
     margin-bottom: 10px;
 }
 h1{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: 4rem;
 }
 
@@ -50,7 +52,6 @@ h1{
 p{
     line-height: 2em;
     font-size: 3.5em;
-    
 }
 
 @media screen and (max-width: 1280px) {
