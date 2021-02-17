@@ -10,11 +10,15 @@
 
 .helt{
     text-align: center;
-    
+    height: 150vmin;
 }
 .cht{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 
+}
+
+main{
+    
 }

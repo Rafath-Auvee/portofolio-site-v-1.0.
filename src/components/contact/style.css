@@ -1,0 +1,20 @@
+.contact-page{
+    text-align: center;
+    color: white;
+}
+
+.heading-name{
+     text-decoration: underline solid #01BF71;
+    margin-bottom: 40px;
+    font-size: 5rem;
+}
+
+.some-text{
+    line-height: 3rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+span{
+    color: #01BF71;
+}

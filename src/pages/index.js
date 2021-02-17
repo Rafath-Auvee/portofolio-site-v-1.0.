@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Main from "../components/MainPage";
 import About from "../components/about";
 import App2 from "../components/projects/main.js";
+import Contact from "../components/contact/";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Main />
       <About />
       <App2 />
+      <Contact />
     </>
   );
 };
