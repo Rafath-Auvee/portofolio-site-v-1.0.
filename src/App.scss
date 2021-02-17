@@ -5,9 +5,6 @@ html {
 }
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
-   --mainc: #01BF71;
-  --fullc: #0D0D0D;
-
           box-sizing: inherit;
 }
 
@@ -17,7 +14,7 @@ body {
   line-height: 1;
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  background-color: #0D0D0D;
+  background-color: #000;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import Main from "../components/MainPage";
 import About from "../components/about";
+import App2 from "../components/projects/main.js";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Main />
       <About />
+      <App2 />
     </>
   );
 };

@@ -1,23 +1,23 @@
-
-
 .start{
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    height: 200vmin;
-}
+    height: 130vmin;
+    margin-right: 200px;
+}   
 
 .container{
  position: relative;
  display: flex;
  justify-content: center;
+ flex-direction: row;
  align-items: center;  
- /* margin-left: 280px; */
+
+ margin-left: 260px;
 }
+
 .container .hex{
+    
     position: relative;
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     margin: 50px 20px 70px;
 }
 
@@ -53,10 +53,13 @@
 
 .container .hex:hover .shape
 {
-    transform: translateY(-30px);
+    transform: translateY(-20px);
 }
 
-
+.jel{
+        text-decoration: underline solid #01BF71;
+    
+}
 .container .hex .shape img{
     position: absolute;
     top: 0; 
@@ -64,6 +67,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 2px solid #01BF71;
 
 }
 
@@ -89,7 +93,12 @@
 }
 
 .aboutme{
-    width: 40%;
+    flex: 2;
+    width: 60%;
+}
+
+.shape{
+    flex: 2;
 }
 
 .para{
@@ -107,11 +116,11 @@ h2{
     font-size: 4rem;
 }
 
-
+/* 
 .bre{
     border: 4px solid #01BF71;
     width: 290px;
-}
+} */
 
 .headwithline{
     padding-bottom: 40px;
