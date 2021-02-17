@@ -2,7 +2,7 @@
     font-size: 4rem;
     text-align: center;
     color:white;
-    padding-bottom: 2rem;
+    margin-bottom: 4rem;
     text-decoration: underline solid #01BF71;
     
        
@@ -11,4 +11,10 @@
 .helt{
     text-align: center;
     
+}
+.cht{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
 }

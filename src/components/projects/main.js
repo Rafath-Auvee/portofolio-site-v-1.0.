@@ -15,7 +15,10 @@ function App2() {
             <Card.Body>
               <Card.Title>{movie.title}</Card.Title>
               <Card.Text>{movie.desc}</Card.Text>
-              <Card.Button>{movie.ctaText}</Card.Button>
+              <div className="cht">
+                <Card.Button>{movie.ctaText}</Card.Button>
+                <Card.Button>{movie.btaText}</Card.Button>
+              </div>
             </Card.Body>
           </Card>
         ))}
