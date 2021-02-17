@@ -21,9 +21,9 @@ export const Container = styled.div`
   &:hover {
     color: #fff;
     background-color: #000;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: #1e7e34;
-    border: 5px solid #01bf71;
+    border: 3px solid #01bf71;
     transition: 0.5s;
     transform: translateY(-20px);
   }
