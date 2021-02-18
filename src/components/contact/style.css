@@ -76,9 +76,11 @@ span{
     
   }
   
-  &:hover { text-decoration: none; }
+ 
   
 }
+
+.btn:hover { text-decoration: none; }
 
 
 .buttons3 {

@@ -33,7 +33,15 @@ const Main = () => {
             ]}
           />
         </p>
+        <section class="buttons3">
+          <div class="container3">
+            <a href="mailto: rafath.auvee@gmail.com" class="btn btn-5">
+              Get in touch!
+            </a>
+          </div>
+        </section>
       </div>
+
       <div className="line"></div>
     </div>
   );
