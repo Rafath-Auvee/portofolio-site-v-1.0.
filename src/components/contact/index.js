@@ -12,7 +12,7 @@ const Contact = () => {
       </p>
       <section class="buttons3">
         <div class="container3">
-          <a href="rafath.auvee@gmail.com" class="btn btn-5">
+          <a href="mailto: rafath.auvee@gmail.com" class="btn btn-5">
             Say Hello!
           </a>
         </div>
