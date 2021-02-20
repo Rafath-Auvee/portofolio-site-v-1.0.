@@ -33,10 +33,10 @@ const Main = () => {
             ]}
           />
         </p>
-        <section class="buttons3">
-          <div class="container3">
-            <a href="mailto: rafath.auvee@gmail.com" class="btn btn-5">
-              Get in touch!
+        <section class="buttons4">
+          <div class="container4">
+            <a href="mailto: rafath.auvee@gmail.com" class="btn2 btn-4">
+              Email Me!
             </a>
           </div>
         </section>
