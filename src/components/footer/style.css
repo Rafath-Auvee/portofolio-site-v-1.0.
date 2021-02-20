@@ -1,0 +1,24 @@
+.foot{
+    color: rgba(1, 191, 113, 1);
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(13,13,13);
+   
+    border-top: 1px solid #01bf71; 
+    font-style: normal;
+    text-decoration: none;
+    padding : 2rem;
+}
+
+.github-stats{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+{
+
+}
+a:link, a:visited{
+    color: rgba(1, 191, 113, 1);
+    text-decoration: none
+}
