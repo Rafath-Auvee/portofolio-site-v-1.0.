@@ -5,7 +5,6 @@ import Main from "../components/MainPage";
 import About from "../components/about";
 import App2 from "../components/projects/main.js";
 import Contact from "../components/contact/";
-import Footer from "../components/footer";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -20,7 +19,6 @@ const Home = () => {
       <About />
       <App2 />
       <Contact />
-      <Footer />
     </>
   );
 };
