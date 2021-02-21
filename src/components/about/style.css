@@ -4,13 +4,12 @@
 }   
 
 .container{
- position: relative;
- display: flex;
- justify-content: center;
- flex-direction: row;
- align-items: center;  
-
- margin-left: 260px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;  
+    margin-left: 260px;
 }
 
 .container .hex{
