@@ -5,6 +5,8 @@ import Typical from "react-typical";
 const Main = () => {
   return (
     <div className="App">
+      <div className="line"></div>
+      <div className="line21"></div>
       <div className="App-header">
         <h3>
           Hello, my name is <br />
