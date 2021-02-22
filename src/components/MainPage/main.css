@@ -13,17 +13,14 @@
     
 }
 .line{
-    
     border-left: 3px solid #01bf71;
     height: 160px;
-    
     margin-left: 55px;
     position: fixed;
     margin-top: 550px;
 }
 
 .line21{
-    
     border-right: 3px solid #01bf71;
     height: 160px;
     margin-left: 1460px;
@@ -40,17 +37,14 @@
     height: 160px;
     margin-left: 1455px;
     position: fixed;
-    margin-top: 350px;
-
-    
+    margin-top: 350px; 
 }
 
 .App-logo{
     height: 40vmin;
     border-radius: 50%;
     margin-bottom: 50px;
-    border: 1vh solid #fff;
-    
+    border: 1vh solid #fff; 
 }
 
 .App-header{
@@ -66,8 +60,6 @@
     color : white;
     padding: 24vh;
     margin-left: 80px;
-
-    
 }
 
 .App-Link{
@@ -106,13 +98,13 @@ p{
         font-size: 2.5rem;
     }
     .line21{
-    
-   display: none;
-}
+        display: none;
+    }
 
-.mail{
-    display: none;
-}
+    .mail
+    {
+        display: none;
+    }
 
   }
 
@@ -134,9 +126,10 @@ p{
     h1{
         font-size: 2rem;
     }
-        .line{
-            display: none;
-        }
+    .line
+    {
+        display: none;
+    }
 
     .social-icons{
         display: none;
@@ -150,7 +143,6 @@ p{
   border: 0 solid;
   box-shadow: inset 0 0 20px rgba(1, 191, 113, 0);
   outline: 1px solid;
-  
   outline-color: rgba(1, 191, 113, 0.5);
   outline-offset: 0px;
   text-shadow: none;
