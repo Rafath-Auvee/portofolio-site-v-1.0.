@@ -16,14 +16,14 @@ export const Container = styled.div`
   border: 3px solid #01bf71;
   border-radius: 0.25rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-
+  transition: 0.5s;
   overflow: hidden;
   &:hover {
     color: #fff;
     background-color: #000;
     border-radius: 10px;
     border-color: #1e7e34;
-    border: 3px solid #01bf71;
+    border: 1px solid #01bf71;
     transition: 0.5s;
     transform: translateY(-20px);
   }

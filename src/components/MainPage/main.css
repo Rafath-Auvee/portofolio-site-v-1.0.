@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
 }
-
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .App{
     text-align: center;
     height: 100vmin;
@@ -29,6 +29,20 @@
     margin-left: 1460px;
     position: fixed;
     margin-top: 550px;
+}
+
+
+
+.mail{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: rgba(1, 191, 113, 1);
+    height: 160px;
+    margin-left: 1455px;
+    position: fixed;
+    margin-top: 350px;
+
+    
 }
 
 .App-logo{
@@ -91,10 +105,19 @@ p{
     h1{
         font-size: 2.5rem;
     }
+    .line21{
+    
+   display: none;
+}
+
+.mail{
+    display: none;
+}
+
   }
 
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .App-header{
         text-align: left;
@@ -111,6 +134,14 @@ p{
     h1{
         font-size: 2rem;
     }
+        .line{
+            display: none;
+        }
+
+    .social-icons{
+        display: none;
+    }
+
   }
 
 
@@ -203,4 +234,123 @@ p{
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    position: fixed;
+    margin-top: 250px;
+}
+.social-icons li {
+    margin-left: 50px;
+    display:block;
+    height: 50px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: rgba(1, 191, 113, 0.7);
+}
+.fa-facebook:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    border-radius: 50%;
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: rgba(1, 191, 113, 0.7);
+}
+.fa-twitter:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    border-radius: 50%;
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: rgba(1, 191, 113, 0.7);
+}
+.fa-rss:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    border-radius: 50%;
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: rgba(1, 191, 113, 0.7);
+}
+.fa-youtube:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    border-radius: 50%;
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+    background-color: rgba(1, 191, 113, 0.7);
+}
+.fa-linkedin:hover {
+    transform: translateY(-3px);
+    background-color: #0073a4;
+    transition: .5s;
+    border-radius: 50%;
+}
+.fa-github {
+    
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: rgba(1, 191, 113, 0.7);
+}
+.fa-github:hover {
+    transform: translateY(-3px);
+    transition: .5s;
+    border-radius: 50%;
+    background-color: #5a32a3;
 }
