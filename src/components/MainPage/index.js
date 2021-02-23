@@ -41,9 +41,6 @@ const Main = () => {
         </ul>
       </div>
 
-      <div className="line21"></div>
-      <div className="mail">rafath.auvee@gmail.com</div>
-
       <div className="App-header">
         <h3>
           Hello, my name is <br />

@@ -19,14 +19,14 @@
     position: fixed;
     margin-top: 550px;
 }
-
+/* 
 .line21{
     border-right: 3px solid #01bf71;
     height: 160px;
     margin-left: 1460px;
     position: fixed;
     margin-top: 550px;
-}
+} */
 
 
 
@@ -51,7 +51,7 @@
     /* background-color: #282c34 ; */
     position: relative;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 50vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -103,6 +103,14 @@ p{
 
     .mail
     {
+        display: none;
+    }
+     .line
+    {
+        display: none;
+    }
+
+    .social-icons{
         display: none;
     }
 
