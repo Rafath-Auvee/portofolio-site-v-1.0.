@@ -1,6 +1,7 @@
 .start{
-    height: 130vmin;
-    margin-right: 200px;
+    border-radius: 50px;
+    height: 80vmin;
+    margin-right: 300px;
 }   
 
 .container{

@@ -10,6 +10,8 @@ import {
   SideBtnWrap,
 } from "./SidebarElements";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -18,10 +20,16 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="/about">About</SidebarLink>
-          <SidebarLink to="/achievement">Achievement</SidebarLink>
-          <SidebarLink to="/projects">Projects</SidebarLink>
-          <SidebarLink to="/contact">Contact</SidebarLink>
+          <SidebarLink to="/about" onClick={toggle}>
+            About
+          </SidebarLink>
+          <SidebarLink to="/achievement" onClick={toggle}>
+            Achievement
+          </SidebarLink>
+          <SidebarLink to="/projects" onClick={toggle}>
+            Projects
+          </SidebarLink>
+          <SidebarLink to="/contact" onClick={toggle}></SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to="/resume">Resume</SidebarRoute>

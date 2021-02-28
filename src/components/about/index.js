@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const About = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <>
-      <div className="start">
-        <div className="container">
+      <div className="start" id="about">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="500"
+          data-aos-duration="500"
+          className="container"
+        >
           <div className="aboutme">
             <div className="headwithline">
-              <h2 className="jel">About Me</h2>
+              <h2
+                data-aos="zoom-out"
+                data-aos-delay="500"
+                data-aos-duration="900"
+                className="jel"
+              >
+                About Me
+              </h2>
               <div className="bre"></div>
             </div>
             <p className="para">
@@ -22,7 +39,12 @@ const About = () => {
             </p>
           </div>
           <div className="hex">
-            <div className="shape">
+            <div
+              data-aos="fade"
+              data-aos-delay="700"
+              data-aos-duration="1000"
+              className="shape"
+            >
               <img
                 src="https://andrafath.files.wordpress.com/2021/02/20287127_880074228823588_6235573847450463520_o.jpg"
                 alt="Rafath Bin Zafar Auvee"

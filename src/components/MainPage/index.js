@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./main.css";
 import Typical from "react-typical";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Main = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <div className="App">
       <div className="line"></div>
@@ -41,7 +46,12 @@ const Main = () => {
         </ul>
       </div>
 
-      <div className="App-header">
+      <div
+        data-aos="fade-down"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        className="App-header"
+      >
         <h3>
           Hello, my name is <br />
         </h3>
@@ -52,24 +62,30 @@ const Main = () => {
             loop={Infinity}
             wrapper="a"
             steps={[
+              2000,
               "Freelance Web Developer 💻",
-              4000,
+              2000,
               "Competitive Programmer 🐱‍👤",
-              4000,
+              2000,
               "Open Sourcer 📖",
-              4000,
+              2000,
               "2D Animator 🎭",
-              4000,
+              2000,
               "Game Developer 🎮",
-              4000,
+              2000,
               "Explorer & Traveller 🧳",
-              4000,
+              2000,
               "Kayaker 🛶",
-              4000,
+              2000,
             ]}
           />
         </p>
-        <section className="buttons4">
+        <section
+          data-aos="fade"
+          data-aos-delay="1000"
+          data-aos-duration="900"
+          className="buttons4"
+        >
           <div className="container4">
             <a href="mailto: rafath.auvee@gmail.com" className="btn2 btn-4">
               Email Me!

@@ -12,6 +12,22 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
+import Main from "../MainPage";
+import About from "../about";
+import App2 from "../projects/main.js";
+import Contact from "../contact/";
+import Footer from "../footer";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -24,6 +40,9 @@ const Navbar = ({ toggle }) => {
     }
   };
 
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
@@ -39,20 +58,20 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks to="/about">About</NavLinks>
+                <NavLinks to="about">About</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/projects">Projects</NavLinks>
+                <NavLinks to="projects">Projects</NavLinks>
               </NavItem>
+              {/* <NavItem>
+                <NavLinks to="achievement">Achievement</NavLinks>
+              </NavItem> */}
               <NavItem>
-                <NavLinks to="/achievement">Achievement</NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to="/contact">Contact</NavLinks>
+                <NavLinks to="contact">Contact</NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/resume">Resume</NavBtnLink>
+              <NavBtnLink to="resume">Resume</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
